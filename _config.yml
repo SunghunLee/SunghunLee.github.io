@@ -3,8 +3,10 @@ url: https://SunghunLee.github.io
 baseurl: ""
 
 # Site settings
-#사이트 이름
+#사이트이름 (탭에 보이는 이름)
 title: Sunghun Lee
+#사이트 이름 (메뉴에 보이는 이름)
+menu-title: "Data Science Portfolio: Sunghun Lee"
 #email 입력
 email: hnhsung@korea.ac.kr
 #간략한 meta 사이트 정보

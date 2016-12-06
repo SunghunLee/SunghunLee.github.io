@@ -10,6 +10,12 @@ body {
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
+.non-deco
+{
+    text-decoration:none !important;
+    font-weight:normal !important;
+}
+
 .text-muted {
     #{{ site.data.template.color.muted }};
 }
@@ -38,6 +44,7 @@ a.active {
 a {
     color: #{{ site.data.template.color.link }};
     text-decoration:underline;
+    font-weight:bold;
 }
 
 a:hover,

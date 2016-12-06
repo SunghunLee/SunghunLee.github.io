@@ -32,11 +32,13 @@
             alt:이미지의 설명인데, 신경안쓰셔도 됩니다.
             project-date : 클릭 시 나오는 modal의 date에 반영됩니다.
             client : 클릭 시 나오는 modal의 client에 반영됩니다.
-            category : 따로 반영되진 않습니다.
+            category : 클릭 시 나오는 modal의 Services에 반영됩니다.
             description: 클릭시 나오는 modal의 설명에 반영됩니다. 이 설명은 html태그도 사용하므로, project-1.markdown에 적힌 예시처럼
             링크를 삽입할 수도 있습니다.
             예시)
             description: Lorem ipsum <a arget="_blank" href="http://naver.com">dolor</a> sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+            link : 프로젝트 링크 주소를 적어주세요.
+            ex) http://naver.com
             -->
             {% assign sorted_pages = (site.posts | sort:'order')%}
             {% for post in sorted_pages %}

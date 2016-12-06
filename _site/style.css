@@ -18,6 +18,12 @@ body {
     color: #333;
 }
 
+.non-deco
+{
+    text-decoration:none !important;
+    font-weight:normal !important;
+}
+
 .text-muted {
     #777;
 }
@@ -45,6 +51,8 @@ a.active {
 
 a {
     color: #315781;
+    text-decoration:underline;
+    font-weight:bold;
 }
 
 a:hover,
