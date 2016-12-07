@@ -12,5 +12,7 @@ project-date: April 2014
 client: Start Bootstrap
 category: Web Development
 description: Lorem ipsum <a target="_blank" href="http://naver.com">dolor</a> sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-link: http://naver.com
+client_link: http://naver.com
+project-date_link: http://naver.com
+category_link: http://naver.com
 ---

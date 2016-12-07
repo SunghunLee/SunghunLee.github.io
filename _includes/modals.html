@@ -16,16 +16,15 @@
                             <hr class="star-primary">
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                             <p>{{ post.description }}</p>
-                            <p><a href="{{ post.link }}" class="page-scroll btn btn-xl non-deco">Show More</a></p>
                             <ul class="list-inline item-details">
                                 <li>Client:
-                                    <strong>{{ post.client }}</strong>
+                                    <a href="{{ post.client_link }}" target="_blank"><strong>{{ post.client }}</strong></a>
                                 </li>
                                 <li>Date:
-                                    <strong>{{ post.project-date }}</strong>
+                                    <a href="{{ post.project-date_link }}" target="_blank"><strong>{{ post.project-date }}</strong></a>
                                 </li>
                                 <li>Service:
-                                    <strong>{{ post.category }}</strong>
+                                    <a href="{{ post.category_link }}" target="_blank"><strong>{{ post.category }}</strong></a>
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
